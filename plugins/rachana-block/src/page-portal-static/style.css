@@ -1,0 +1,22 @@
+.page-portal .cgds.card {
+    .card-img-top {
+        width: 73px;
+        height: 73px;
+        background-color: var(--cgds-primary-gray);
+        border-radius: 8px;
+        i {
+            color: var(--cgds-primary);
+            &:hover{
+                color: var(--cgds-900);
+            }
+        }
+    }
+    .card-body{
+        color: var(--cgds-primary);
+        a{
+            &:hover {
+                color: var(--cgds-900);
+            }
+        }
+    }
+}

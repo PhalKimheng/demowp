@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rachana-block/youtube-playlist",
+  "title": "Youtube playlist",
+  "version": "1.0.0",
+  "category": "rachana-dynamic",
+  "textdomain": "rachana-block",
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./script.js",
+  "style":  "file:./style-index.css"
+}

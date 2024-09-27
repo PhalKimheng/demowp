@@ -1,0 +1,15 @@
+.wp-block-rachana-block-container{
+  .block-editor-inner-blocks{
+    width: 100%;
+  }
+}
+.white{
+  background-color: #FFFFFF;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+.gray{
+  background-color: #F8F8F8;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}

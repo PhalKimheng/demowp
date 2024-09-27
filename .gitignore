@@ -1,0 +1,16 @@
+themes/twentytwentyfour
+themes/twentytwentythree
+themes/twentytwentytwo
+themes/mptc-theme
+plugins/akismet
+plugins/polylang
+plugins/hello.php
+plugins/rachana-block/build
+plugins/rachana-block/node_modules
+plugins/rachana-block/package-lock.json
+themes/rachana-theme/assets/css/cgds.css
+themes/rachana-theme/assets/css/node_modules
+themes/rachana-theme/assets/css/package-lock.json
+themes/rachana-theme/assets/css/package.json
+.DS_Store
+.idea

@@ -1,0 +1,22 @@
+{
+    "rowColumnCounts": {
+        "type": "object",
+        "default": {
+            "xs": 1,
+            "sm": 1,
+            "md": 1,
+            "lg": 1,
+            "xl": 1
+        }
+    },
+    "breakpoints": {
+        "type": "array",
+        "default": [
+            { "label": "Extra Small", "value": "xs", "isActive": false },
+            { "label": "Small", "value": "sm", "isActive": false },
+            { "label": "Medium", "value": "md", "isActive": false },
+            { "label": "Large", "value": "lg", "isActive": false },
+            { "label": "X Large", "value": "xl", "isActive": false }
+        ]
+    }
+}

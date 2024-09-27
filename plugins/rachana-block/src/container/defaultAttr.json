@@ -1,0 +1,16 @@
+{
+    "breakpoint": "",
+    "options": {
+        "Extra Small": "",
+        "Small": "-sm",
+        "Medium": "-md",
+        "Large": "-lg",
+        "X large": "-xl",
+        "XX Large": "-xxl",
+        "Fluid": "-fluid"
+    },
+    "colors": {
+        "White": "white",
+        "Gray": "gray"
+    }
+}

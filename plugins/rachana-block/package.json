@@ -1,0 +1,33 @@
+{
+  "name": "rachana-wordpress-blocks",
+  "version": "1.0.0",
+  "description": "a drag and drop adaptation of Rachana (Cambodia Government Design System)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "author": "DiTr",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/blocks": "^12.28.1",
+    "@wordpress/i18n": "^4.51.0",
+    "@wordpress/icons": "^10.4.0",
+    "@wordpress/scripts": "^27.2.0",
+    "date-fns": "^3.6.0",
+    "moment": "^2.30.1"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^6.55.0",
+    "@wordpress/block-editor": "^12.19.1",
+    "@wordpress/components": "^26.0.1",
+    "@wordpress/data": "^9.27.0",
+    "@wordpress/element": "^5.34.0",
+    "@wordpress/media-utils": "^4.43.0",
+    "@wordpress/server-side-render": "^4.34.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "css": "^3.0.0"
+  }
+}

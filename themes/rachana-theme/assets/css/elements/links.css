@@ -1,0 +1,12 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--cgds-primary);
+}
+
+.page-link{
+  color: var(--cgds-primary);
+}

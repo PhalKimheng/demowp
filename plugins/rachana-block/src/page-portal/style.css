@@ -1,0 +1,68 @@
+.page-portal {
+    padding: 20px 0;
+    margin-top: 5px;
+    position: relative;
+}
+.page-portal .card {
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+.page-portal .card {
+    border: 1px solid #e5e7eb!important;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px #0000001a;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+.page-portal .card-body {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.page-portal .card svg {
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.page-portal .card-img-top{
+    width: inherit;
+}
+
+.page-portal .slick-arrow::before{
+    display: none;
+}
+
+
+.page-portal .slick-prev i, .page-portal .slick-next i {
+    font-size: 20px;
+    color: var(--cgds-primary);;
+}
+
+.page-portal .slick-prev {
+    left: 10px;
+}
+
+.page-portal .slick-next {
+    right: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .page-portal .cgds.card {
+        gap: 10px;
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .page-portal .cgds.card .card-icon-conrtainer,
+    .page-portal .cgds.card .card-icon-conrtainer svg{
+        height: 50px;
+        width: 50px;
+    }
+    .page-portal .cgds.card .icon-text{
+        font-size: 12px;
+    }
+                
+}

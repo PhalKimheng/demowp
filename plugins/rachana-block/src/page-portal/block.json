@@ -1,0 +1,12 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "rachana-block/page-portal",
+	"version": "0.1.0",
+	"title": "Page Portal",
+	"category": "rachana-dynamic",
+	"textdomain": "rachana-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

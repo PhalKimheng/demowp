@@ -1,0 +1,9 @@
+.dropdown-item:focus, .dropdown-item:hover{
+    color: var(--cgds-primary);
+}
+.cgds.dropdown .dropdown-menu a.dropdown-item:active{
+    background-color: var(--cgds-900);
+}
+.cgds.navbar .nav-item a.nav-link.dropdown-toggle.show{
+    border-bottom: .125rem solid var(--cgds-900);
+}

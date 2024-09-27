@@ -1,0 +1,27 @@
+.bootstrap-row{
+    .block-editor-inner-blocks{
+        width: 100%;
+    }
+}
+.row-column-button {
+    width: 248px;
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.columns-wrapper {
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+.row-column-box {
+    width: 80%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.row.gap {
+    gap: 16px 0 !important;
+}

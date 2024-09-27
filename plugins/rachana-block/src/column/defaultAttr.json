@@ -1,0 +1,22 @@
+{
+  "breakpointSizes": {
+    "type": "object",
+    "default": {
+      "": 0,
+      "sm": 0,
+      "md": 0,
+      "lg": 0,
+      "xl": 0
+    }
+  },
+  "breakpointOptions": {
+    "type": "array",
+    "default": [
+      { "label": "Extra Small", "value": "", "isActive": false },
+      { "label": "Small", "value": "sm", "isActive": false },
+      { "label": "Medium", "value": "md", "isActive": false },
+      { "label": "Large", "value": "lg", "isActive": false },
+      { "label": "X Large", "value": "xl", "isActive": false }
+    ]
+  }
+}

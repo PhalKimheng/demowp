@@ -1,0 +1,41 @@
+.cgds.profile-block {
+  color: var(--cgds-primary) !important;
+  margin-bottom: 3em;
+  a {
+    &:after {
+      content: none !important;
+      display: none !important;
+    }
+    &:visited{
+      color: inherit;
+    }
+    &:hover{
+      color: var(--cgds-hover-color) !important;
+    }
+    color: var(--cgds-primary) !important;
+  }
+  .image-container {
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .profile-pic-container {
+    max-height: 318px;
+    aspect-ratio: 1;
+    border-width: 5px;
+  }
+  .profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .role{
+    margin: -1.5rem;
+  }
+}

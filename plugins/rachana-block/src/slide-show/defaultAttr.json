@@ -1,0 +1,19 @@
+{
+  "id": "",
+  "slideImage": "",
+  "slideTitle": "",
+  "slideLink": "",
+  "readMoreText": "Read More",
+  "postAuthor": "",
+  "postDate": "",
+  "showAuthor": false,
+  "showDate": false,
+  "showImage": false,
+  "showReadMoreBtn": false,
+  "categories": [],
+  "showCategoryBtn": false,
+  "inputOption": "manual",
+  "content": "",
+  "postData": null,
+  "categoryId": 0
+}

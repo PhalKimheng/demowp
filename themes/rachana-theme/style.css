@@ -1,0 +1,62 @@
+/*
+Theme Name: Rachana Theme
+Author: Digital Government Transformation Department
+Author URI: https://git.anakotlab.com/
+Version: 1.0.0
+Description: This is a theme for the Rachana website.
+Text Domain: Rachana Theme
+Use this theme to make something cool, have fun, and share what you've learned with others.
+*/
+
+@media screen and (min-width: 992px) {
+    .sticky-top-nav {
+      position: sticky;
+      top: 0;
+      z-index: 999999;
+    }
+  }
+@media screen and (max-width: 991px) { 
+    .sticky-top-header{
+        position: sticky;
+        top: 0;
+        z-index: 999999;
+    }
+}
+
+.cgds-container {
+  max-width: 1310px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1390px) {
+  .cgds-container {
+    margin: auto 40px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .cgds-container {
+    margin: auto 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cgds-container {
+    margin: auto 15px;
+  }
+}
+
+
+*{
+  font-family: var(--cgds-body-font-family);
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--cgds-body-font-family);
+  font-weight: 600;
+}
+
+p {
+  font-family: var(--cgds-body-font-family);
+}

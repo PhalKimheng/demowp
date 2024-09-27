@@ -1,0 +1,8 @@
+.btn-primary{
+    background-color: var(--cgds-primary);
+    border-color: var(--cgds-primary);
+}
+
+.btn-secondary{
+    background-color: var(--cgds-100) !important;
+}

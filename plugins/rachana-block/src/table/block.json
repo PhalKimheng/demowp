@@ -1,0 +1,11 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rachana-block/table",
+  "version": "1.0.0",
+  "title": "Table",
+  "category": "rachana-block-category",
+  "textdomain": "rachana-block",
+  "editorScript": "file:./index.js",
+  "style":  "file:./style-index.css"
+}

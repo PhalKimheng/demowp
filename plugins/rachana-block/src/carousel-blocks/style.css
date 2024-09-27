@@ -1,0 +1,56 @@
+.wp-block-rachana-block-carousel-blocks .block-editor-inner-blocks{
+  width: 100%;
+}
+.carousel {
+  .card-horizontal {
+    flex-direction: row !important;
+    .card-img-left {
+      border-radius: 0.4rem 0 0 0.4rem;
+      -o-object-fit: cover;
+      object-fit: cover;
+      width: 50%;
+      .card-body {
+        align-content: center;
+        width: 50%;
+      }
+    }
+  }
+  .cgds.card {
+    box-shadow: none !important;
+    position: relative;
+    .card-body {
+      position: relative;
+    }
+    .card-text, .card-title {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      -webkit-line-clamp: 3;
+    }
+    &:hover{
+      box-shadow: none !important;
+      filter: none !important;
+    }
+    .card-link{
+      position: relative;
+      z-index: 30;
+      pointer-events: auto;
+      &:hover{
+        color: var(--cgds-hover-color) !important;
+      }
+    }
+    span {
+      opacity: 1;
+      color: inherit !important;
+    }
+  }
+}
+
+.cgds.full-width {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.cgds.full-width > *,  .cgds.full-width > .cgds.slide{
+  margin-top: 0;
+}

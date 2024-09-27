@@ -1,0 +1,19 @@
+.btn-primary{
+    background-color: var(--cgds-primary) !important;
+    border-color: var(--cgds-primary) !important;
+}
+
+.btn-secondary{
+    background-color: var(--cgds-100) !important;
+}
+
+.btn-primary:hover{
+    background-color: var(--cgds-hover-color) !important;
+    border-color: var(--cgds-hover-color) !important;
+}
+
+.blog-btn:hover,
+.blog-btn:hover i {
+    border-color: var(--cgds-hover-color) !important;
+    color: var(--cgds-hover-color) !important;
+}

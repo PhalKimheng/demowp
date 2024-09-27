@@ -1,0 +1,9 @@
+{
+  "postCount": 5,
+  "posts": [],
+  "id": "",
+  "linkColor": "white",
+  "displayCategoryButtons" : true,
+  "displayTimeAndAuthor": true,
+  "fetchByCategory": false
+}

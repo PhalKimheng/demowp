@@ -1,0 +1,72 @@
+.cgds.footer .footer-contact-info {
+	background-color: var(--cgds-900) !important;
+	color: var(--cgds-text-color-theme) !important;
+	padding: 1rem 0;
+}
+
+.cgds.footer .footer-contact-info li,
+.cgds.footer .footer-contact-info a {
+	color: var(--cgds-text-color-theme) !important;
+}
+
+.cgds.footer .footer-contact-info a[target="_blank"]:after {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.cgds.footer .footer-contact-info ul {
+		gap: 0.5rem !important;
+		padding-left: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.footer-top .footer-menu-hidden {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.cgds.footer .footer-contact-info ul {
+		gap: 1rem !important;
+		padding-left: 1.5rem;
+	}
+}
+
+.cgds.footer .footer-contact-info i {
+	font-size: 24px;
+}
+
+.cgds.footer .footer-contact-info .phone-number-divider {
+	width: 1px;
+	border-right: 1px solid var(--cgds-text-color-theme);
+}
+
+.footer-container {
+	background-color: var(--cgds-primary);
+	padding: 0 24px;
+}
+
+.footer-menu-wrapper {
+	display: flex;
+}
+
+.footer-top .footer-menu-wrapper .menu-title {
+	width: 100%;
+}
+
+.footer-top .footer-menu-wrapper .menu-title>a {
+	font-weight: 600;
+}
+
+.footer-top .footer-menu-wrapper ul.submenu-container {
+	margin-top: 12px;
+}
+
+.footer-top .footer-menu-wrapper ul.submenu-container .submenu-item a:hover {
+	color: var(--cgds-hover-color) !important;
+}
+
+footer {
+	margin-top: 2em;
+}

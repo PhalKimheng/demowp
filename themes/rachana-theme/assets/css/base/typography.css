@@ -1,0 +1,25 @@
+.w-75ch{
+  width: 75ch;
+}
+
+body{
+  color: var(--cgds-gray-600);
+  font-family: var(--cgds-body-font-family);
+}
+
+.title{
+  font-weight: bold;
+}
+
+p,li{
+  color: var(--cgds-gray-600)
+}
+
+h1{
+  letter-spacing: -0.02em;
+}
+
+.subtitle{
+  color: var(--cgds-gray-600);
+}
+

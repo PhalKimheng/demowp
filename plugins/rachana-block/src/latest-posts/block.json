@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rachana-block/latest-posts",
+  "title": "Latest Posts",
+  "version": "1.0.0",
+  "category": "rachana-dynamic",
+  "textdomain": "rachana-block",
+  "editorScript": "file:./index.js",
+  "style":  "file:./style-index.css"
+}
+

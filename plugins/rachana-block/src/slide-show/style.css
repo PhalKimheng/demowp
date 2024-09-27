@@ -1,0 +1,233 @@
+.cgds.slide:not(.news) {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    .carousel-item {
+        display: block;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+        &.active {
+            opacity: 1;
+        }
+    }
+    .title-wrapper{
+        height: 66%;
+    }
+    .button-wrapper{
+        height: 33%;
+    }
+    .carousel-inner {
+        .card-body {
+            &.card-body-custom {
+                height: 100%;
+                width: 50%;
+
+                .content-div {
+                    height: 66%;
+
+                    .author-time-div {
+                        height: 25%;
+                        min-height: 25%;
+                    }
+
+                    .title-div {
+                        height: 50%;
+                        min-height: 50%;
+                    }
+
+                    .category-div {
+                        height: 25%;
+                        min-height: 25%;
+                        z-index: 20;
+                    }
+                }
+
+                .button-div {
+                    height: 33%;
+                    min-height: 33%;
+                }
+            }
+        }
+    }
+    .category-links-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+        z-index: 10;
+        position: absolute;
+    }
+    .category-link {
+        margin-right: 1em !important;
+        margin-bottom: 1em;
+        z-index: 10;
+    }
+    .carousel-control-prev {
+        left: 3.75rem !important;
+        width: 48px !important;
+    }
+    .carousel-control-next {
+        right: 3.75rem !important;
+        width: 48px !important;
+        z-index: 25;
+    }
+    .card-link, .card-link i {
+        color: var(--cgds-text-color-theme);
+    }
+    .card {
+        border: none !important;
+        border-radius: 0 !important;
+        height: 444px;
+        .card-img-left {
+            border: none !important;
+            border-radius: 0 !important;
+        }
+        .slide-icon {
+            width: auto;
+            margin-bottom: 0;
+        }
+    }
+    .card-body {
+        background-color: var(--cgds-primary);
+        .card-title {
+            text-align: justify;
+        }
+        .card-text-muted {
+            color: white !important;
+        }
+    }
+    .category-links {
+        margin-bottom: 1em;
+    }
+    .card-link-wrapper {
+        margin-top: auto;
+    }
+    .carousel-control-prev-icon {
+        width: 3em !important;
+        height: 3em !important;
+    }
+    .carousel-control-next-icon {
+        width: 3em !important;
+        height: 3em !important;
+    }
+    .carousel-item {
+        -webkit-transition: 0s !important;
+        -o-transition: 0s !important;
+        transition: 0s !important;
+    }
+    .carousel-inner .card-img-left {
+        height: 444px;
+    }
+    .btn-primary {
+        background-color: var(--cgds-900) !important;
+        border-color: var(--cgds-900) !important;
+
+        &:hover {
+            background-color: var(--cgds-hover-color) !important;
+            border-color: var(--cgds-hover-color) !important;
+        }
+    }
+    .carousel-indicators {
+        position: relative;
+        margin-top: 1rem;
+    }
+    .category-links, .cgds.slide .card-link-wrapper {
+        z-index: 10;
+    }
+    .link-primary{
+        color: var(--cgds-text-color-theme);
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 720px) {
+    .cgds.slide:not(.news) {
+        .card-img-left {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        .carousel-control-next {
+            right: 0% !important;
+        }
+        .carousel-control-prev {
+            left: 0% !important;
+        }
+        .card-body {
+            &.card-body-custom {
+                height: 185px !important;
+                width: auto !important;
+            }
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 40%;
+            background-color: rgba(var(--cgds-primary-rgb), 0.5);
+            padding: 1em;
+            color: white;
+            font-weight: bold;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .card-title {
+            color: var(--cgds-text-color-theme) !important;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .card-link-wrapper {
+            bottom: 1em;
+            left: 1em;
+            z-index: 10;
+        }
+    }
+}
+@media screen and (max-width: 376px) {
+    .cgds.slide:not(.news) {
+        .card-img-left {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        .carousel-control-next {
+            width: 38px !important;
+            right: 0% !important;
+        }
+        .carousel-control-prev {
+            width: 38px !important;
+            left: 0% !important;
+        }
+         .carousel-control-prev-icon {
+            width: 2.375em !important;
+            height: 2.375em !important;
+        }
+        .carousel-control-next-icon {
+            width: 2.375em !important;
+            height: 2.375em !important;
+        }
+        .card-body {
+            &.card-body-custom {
+                height: 171px !important;
+                width: auto !important;
+            }
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 40%;
+            background-color: rgba(var(--cgds-primary-rgb), 0.5);
+            padding: 1em;
+            color: white;
+            font-weight: bold;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .card-title {
+            color: var(--cgds-text-color-theme) !important;
+            font-size: 15px;
+            line-height: 18px;
+        }
+        .card-link-wrapper {
+            bottom: 1em;
+            left: 1em;
+            z-index: 10;
+        }
+    }
+}

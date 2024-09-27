@@ -1,0 +1,36 @@
+{
+  "options": {
+    "type": "array",
+    "default": [
+      {
+        "label": "Fetch Latest Posts", "value" : "rachana-block/latest-posts"
+      },
+      {
+        "label": "Set Posts One by One", "value": "rachana-block/slide-show"
+      }
+    ]
+  },
+  "type": {
+    "type": "string",
+    "default": "rachana-block/slide-show"
+  },
+  "innerBlocksContent": {
+    "type": "array",
+    "default": []
+  },
+  "widthOptions": {
+    "type": "array",
+    "default": [
+      {
+        "label": "Auto", "value" : "auto"
+      },
+      {
+        "label": "Full", "value": "full"
+      }
+    ]
+  },
+  "widthType": {
+    "type": "string",
+    "default": "full"
+  }
+}
