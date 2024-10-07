@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){const e=document.querySelectorAll(".video-playlist-item");e.forEach((t=>{t.addEventListener("click",(function(){e.forEach((e=>e.classList.remove("active"))),this.classList.add("active")}))}))}));
